@@ -4,7 +4,8 @@ const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
-const dist = "./dist/";
+// const dist = "./dist/";
+const dist = "/Applications/MAMP/htdocs/Irvas_glazing";
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/index.html")
