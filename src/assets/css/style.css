@@ -707,6 +707,7 @@ textarea:focus {
   color: white;
   font-size: 40px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .timer1 span{
