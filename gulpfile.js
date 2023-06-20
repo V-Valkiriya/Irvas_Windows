@@ -8,7 +8,7 @@ const browsersync = require("browser-sync");
 const dist = "/Applications/MAMP/htdocs/Irvas_glazing";
 
 gulp.task("copy-html", () => {
-    return gulp.src(".src/index.html")
+    return gulp.src("./src/index.html")
                 .pipe(gulp.dest(dist))
                 .pipe(browsersync.stream());
 });
